@@ -1,7 +1,7 @@
 openapi: 3.0.3
 info:
   title: Test Service Wrapped
-  version: 0.2.1-rc.2
+  version: 0.2.1
   description: |
     A simple test service for validator testing.
 
@@ -47,7 +47,7 @@ externalDocs:
   url: https://github.com/camaraproject/TestService
 
 servers:
-  - url: '{apiRoot}/test-service-wrapped/v0.2rc2'
+  - url: '{apiRoot}/test-service-wrapped/v0.2'
     variables:
       apiRoot:
         default: http://localhost:9091
